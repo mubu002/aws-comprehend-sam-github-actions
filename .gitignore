@@ -4,3 +4,38 @@ sam-installation/
 aws/
 .aws/
 *.zip
+# SAM build artifacts
+.aws-sam/
+.aws-sam-build/
+.aws-sam-cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# AWS credentials (should NEVER be committed)
+*.pem
+*.env
+.env.*
+aws_access_keys.txt
+
+# Local test files
+event.json
+
+# VSCode / Codespaces
+.vscode/
+.history/
+.settings/
+.DS_Store
+
+# ZIP files downloaded during install
+awscliv2.zip
+aws-sam-cli-linux-x86_64.zip
+sam-installation/
